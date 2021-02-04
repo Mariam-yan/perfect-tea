@@ -1,0 +1,984 @@
+$w:#fff;
+$gradient:#ea5556;
+$title-color:#0b0707;
+$text-color:#6e6e6d;
+
+*
+{
+    box-sizing: border-box;
+}
+body
+{   
+    font-family:'Archivo Narrow', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul li
+{
+    list-style: none;
+}
+a, a:active,  a:visited,  a:hover
+{
+    text-decoration: none!important;
+    color: inherit;
+}
+.header
+{
+    display: grid;
+    min-height: 640px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.gradient_bg
+{
+    background-color: #ea5556;
+    background-image: linear-gradient(#feb592, #ea5556);
+    margin-left: 270px;
+    min-height: 640px;
+}
+.dn
+{
+    display: none;
+}
+.gradient_bg > nav
+{
+    min-height: 100px;
+}
+.fa-bars
+{    
+    cursor: pointer;
+    font-size: 30px;
+}
+.logo
+{
+    height: 0;
+}
+.logo > img
+{
+    margin-top: 418px;
+}
+.brew
+{
+    color:#4b2525;
+    font-size: 55px;
+    line-height: inherit;
+    width: max-content;
+    text-align: center;
+    padding-left: 92px;
+    padding-top: 31px;
+}
+.tea
+{
+    font-size: 100px;
+    color: $w;
+    line-height: 35px;
+    width: max-content;
+    text-align: center;
+    padding-left: 68px;
+}
+.head_menu
+{
+    display: flex;
+    padding-top: 53px;
+}
+
+.head_menu li a
+{
+    font-size: 14px;
+    font-family: Archivo;
+    color: $w;
+    margin-left: 70px;
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+.head_menu  li > a:hover
+{
+    border-bottom: 5px solid transparent;
+    padding-bottom: 8px;
+    border-image: url(../img/v.jpg) 20 stretch;
+}
+
+.head_menu li:first-child
+{
+    margin-left: 100px;
+}
+.head_menu li:nth-last-child(2)
+{
+    margin-left: 150px;
+}
+
+.head_menu li:nth-last-of-type(-n+1)
+{
+    margin-left: -35px;
+}
+
+.head_menu li:nth-last-of-type(-n+1) >a:hover
+{
+   border: 0px;
+}
+.head_menu li:nth-last-child(2)>a:hover
+{
+    border: 0px;
+}
+#dn
+{
+    display: none;
+}
+.fas
+{
+    color: $w;
+    cursor: pointer;
+}
+.best_tea_bg
+{
+    width: 430px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 120px;
+}
+.head_content
+{
+    margin-top: 180px;
+    display: grid;  
+    justify-content: center;
+}
+.head_content h2
+{
+    font-size: 60px;
+    color: #fffefe;
+    font-family: 'Archivo', Loew Regular;
+    letter-spacing: 0.1em;
+}
+.head_oringe
+{ 
+    position: relative;
+    width: 247px;
+    min-height: 244px;
+}
+
+.orgBg
+{
+    position: absolute;
+    left: -40%;
+    top: -35%;
+}
+.v
+{
+    position: absolute;
+    left: -109%;
+    top: 83%;
+    width:270px;
+}
+.section1
+{
+    position: relative;
+    min-height: 700px;
+}
+.our_recipes
+{
+    width: 800px;
+    margin-left: 30%;
+    margin-top: -3%;
+}
+.our_recipes_head
+{
+    background: #fbaf5d;
+    min-height: 93px;
+}
+.title_or
+{
+    color:$title-color;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+.our_recipes_content
+{
+    display: flex;
+}
+.our_recipes_text
+{
+    width: 414px;
+    position: relative;
+    padding-left: 40px;
+}
+.our_recipes_text > p
+{
+    width: 150px;
+    height: 260px;
+    color: $text-color;
+    font-weight: bold;
+    font-size: 16px;
+}
+.our_recipes_text  p:first-letter
+{
+    color: $title-color;
+    font-size: 40px;
+}
+.left_border
+{
+    border-left: 3px solid gainsboro;
+    border-right: 3px solid gainsboro;
+}
+.right_border
+{
+    border-left: 3px solid gainsboro;
+}
+.see_more
+{
+   background: -webkit-linear-gradient(#feb592, #ea5556);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.forng
+{
+    position: relative;
+    left: 87%;
+}
+/*section 2*/
+.loose_teas
+{
+    min-height: 1000px;
+}
+.border_title1
+{
+   margin-top: 70px;
+   height: 68px;
+   background-size: cover;
+   width: 850px;
+}
+.border_title2
+{
+   margin-top: 70px;
+   height: 68px;
+   background-size: cover;
+   width: 708px;
+}
+
+    .loose_teas_container
+    {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+    }
+    .loose_teas_container> div 
+    {
+        margin-top: 90px;  
+    }
+
+  .title_num
+  {
+      color: #e5e5e5;
+      text-align: center;
+      font-size: 60px;
+      font-weight: bold;
+      font-family: 'Archivo', Regular;
+  }
+  .loose_teas_img
+  {
+    min-height: 351px;
+    background-size: cover;
+    background-position: center;
+  }
+ 
+ .loose_teas_text 
+  {
+    padding-right: 11%;
+    margin-left: 42px;
+    font-size: 16px;
+    text-align: left;
+    color: #6e6e6d;
+    font-weight: bold;
+    line-height: 2em;
+  }
+  .loose_teas_text:first-letter
+  {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .fa-chevron-right
+  {
+      font-size: 16px;
+      color: $text-color;
+  }
+  .border_after_post
+  {
+      display: flex;
+      justify-content: flex-end;
+  } 
+  /*section3*/
+  .section3
+  {
+      min-height: 450px;
+      margin-top: 70px;
+  }
+  .bg_perfect_tea
+  {
+    display: flex;
+    flex-direction: column;
+    height: 435px;
+    background-size: cover;
+    background-position: bottom;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.1em;
+  }
+  .perfect_tea_tit
+  {
+      font-family: 'Archivo', Loew Regular;
+      text-align: left;
+      font-size: 60px;
+      letter-spacing: 0.1em;
+      width: 480px;
+  }
+  .btn_more
+  {
+      border: 1px solid $title-color;
+      width: 165px;
+      height: 65px;
+      font-size: 17px;
+      color: $title-color;
+      font-family: 'Archivo';
+      font-weight: bold;
+  }
+  .content_btn_more
+  {
+    margin-right: -28%;
+  }
+  /*section4*/
+  .section4
+  {
+    min-height: 650px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .section4_list
+  {
+      background-size: cover;
+      height: 625px;
+      width: 920px;
+  }
+  /*section5*/
+  .section5
+  {
+      min-height: 550px;
+  }
+  .div_help_list_grid
+  {
+      margin-top: 70px;
+  }
+  .help_list_grid
+  {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    grid-gap: 10px;
+    text-align: center;
+  }
+  .help_text
+  {
+      padding-top: 20px;
+  }
+  .oringe_bg
+  {
+      background-repeat: no-repeat;
+      height: 191px;
+  }
+  /*footer*/
+  .footer
+  {
+      background-color: #e1e1e1;
+      min-height: 700px;
+  }
+  .content_img_reg
+  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  .footer_img
+  {
+    background-size: cover;
+    width: 500px;
+    height: 390px;
+    background-position: center;
+    margin-top: 54px;
+  }
+
+  .blok_reg
+  {
+    width: 500px;
+    height: 460px;
+    background-color: $w;
+    box-shadow: -3px 4px 27px #6e6e6d;
+    margin-top: 125px;
+    margin-left: 68px;
+  }
+  .blok_reg >form
+  {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+  .sand
+  {
+      background-color: #ceaf34;
+      color: $w;
+  }
+  input
+  {
+      width: 430px;
+      height: 40px;
+      border: 1px solid #e1e1e1;
+  }
+  input:focus
+  {
+      border: 1px solid #ceaf34;
+  }
+  textarea
+  {
+    resize: none;      
+    border: 1px solid #e1e1e1;
+  }
+  textarea:focus
+  {
+      border: 1px solid #ceaf34;
+  }
+  ::placeholder {
+    color: #6e6e6d;
+    font-size: 14px;
+    font-family: 'Archivo';
+    font-weight: bold;
+    padding-left: 20px;
+  }
+  /* social icons */
+.content_social
+  {
+    width: 190px;
+    margin-top: -53px;
+    margin-left: -20px;
+  }
+  .content_social > ul
+  {
+      display: flex;
+  }
+  .content_social >  ul >li
+  {
+     margin-right: 20px;
+  }
+  .fa-instagram
+  {
+    background-color: #ceaf34;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 16px 18px;
+  }
+  .fa-facebook-f
+  {
+    background-color: #ceaf34;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 15px 20px;
+  }
+  .footerV
+  {
+      width: 100%;
+      height: 70px;
+      background-size: cover;
+  }
+  .ay
+  {
+    color: $w;
+    font-size: 13px;
+    font-family: 'Archivo';
+    padding-top: 30px;
+    padding-left: 30px;
+    transition: all 0.5s ease;
+  }
+  .ay > a:hover
+  {
+    color: #fff;
+  }
+
+ /*media query*/
+
+@media screen and (max-width: 1287px) 
+{
+    .brew 
+    {
+        font-size: 48px;
+        padding-left: 92px;
+        padding-top: 31px;
+    }
+    .tea 
+    {
+        font-size: 60px;
+        line-height: 0px;
+        width: max-content;
+        padding-left: 76px;
+    }
+    .head_menu li a
+    {
+        margin-left: 46px;
+    }
+    .head_menu li:first-child
+    {
+        margin-left: 0px;
+    }
+    .head_menu li:nth-last-child(2)
+    {
+        margin-left: 0px;
+    }
+
+    .head_menu li:nth-last-of-type(-n+1)
+    {
+        margin-left: 0px;
+    }
+    .forng 
+    {
+        position: relative;
+        left: 73%;
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1160px) 
+{
+    .header
+    {
+        min-height: 600px;
+    }
+    .gradient_bg 
+    {
+        margin-left: 220px;
+        min-height: 619px;
+    }
+    .brew 
+    {
+        font-size: 48px;
+        padding-left: 52px;
+        padding-top: 31px;
+    }
+    .tea 
+    {
+        font-size: 60px;
+        line-height: 0px;
+        width: max-content;
+        padding-left: 34px;
+    }
+    .head_content 
+    {
+        margin-top: 105px;
+    }
+    .head_menu li a
+    {
+        margin-left: 46px;
+    }
+    .head_menu li:first-child
+    {
+        margin-left: 0px;
+    }
+    .head_menu li:nth-last-child(2)
+    {
+        margin-left: 48px;
+    }
+
+    .head_menu li:nth-last-of-type(-n+1)
+    {
+        margin-left: 0px;
+    }
+    .head_content h2 
+    {
+        font-size: 37px;
+    }
+    .our_recipes
+    {
+        width: 575px;
+        margin-left: 30%;
+        margin-top: -4%;
+    }
+    .orgBg 
+    {
+        position: absolute;
+        left: -40%;
+        top: -35%;
+        width: 80%;
+    }
+    .best_tea_bg 
+    {
+        width: 329px;
+    }
+    .forng 
+    {
+        position: relative;
+        left: 85%;
+        width: 20%;
+    }
+    .section4 
+    {
+        min-height: 500px;
+    }
+    .section4_list 
+    {
+        background-size: cover;
+        height: 385px;
+        width: 614px;
+    }
+    .footer 
+    {
+        min-height: 600px;
+    }
+    .footer_img 
+    {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 390px;
+        background-position: center;
+        margin-top: -48px;
+    }
+    .content_img_reg
+    {
+        height: 485px;
+    }
+    .blok_reg 
+    {
+        width: 300px;
+        height: 360px;
+    }
+    .blok_reg > form 
+    {
+        padding-top: 30px;
+    }
+    input
+    {
+        width: auto;
+        height: 40px;
+        border: 1px solid #e1e1e1;
+    }
+    .content_social 
+    {
+        width: 170px;
+        margin-top: -127px;
+    }
+    .fa-instagram 
+    {
+        padding: 12px 14px;
+    }
+    .fa-facebook-f
+    {
+        padding: 12px 17px;
+    }
+    .title_or 
+    {
+        font-size: 30px;
+    }
+    .border_title1 
+    {
+        margin-top: 50px;
+        width: 510px;
+    }
+    .loose_teas_container > div 
+    {
+        margin-top: 43px;
+    }
+    .loose_teas_img 
+    {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .title_num 
+    {
+        font-size: 30px;
+    }
+    .loose_teas_text 
+    {
+        font-size: 13px;
+    }
+    .border_title2 
+    {
+        margin-top: 50px;
+        height: 68px;
+        background-size: cover;
+        width: 510px;
+    }
+    .btn_more 
+    {
+        width: 150px;
+        height: 60px;
+    }
+    .bg_perfect_tea 
+    {
+        height: 400px;
+    }
+    .ay 
+    {
+        font-size: 11px;
+        padding-left: 7px;
+    }
+}
+@media screen and (max-width: 900px) 
+{
+  .dn
+   {
+       display: block;
+       margin-left: 30px;
+   }
+   .burger
+   {
+       padding-top: 56px;
+   }
+    .head_menu 
+    {
+        display: none;
+        border: 4px solid transparent;
+        padding: 8px;
+        border-image: url(../img/v.jpg) 20 stretch;
+        width: 179px;
+        margin-left: 30px;
+    }
+
+    .head_menu li a
+    {
+        font-size: 14px;
+        font-family: Archivo;
+        color: $w;
+        margin-left: 70px;
+        transition: all 0.5s ease;
+        position: relative;
+    }
+
+    .head_menu  li > a:hover
+    {
+        border-bottom: 0px solid transparent;
+        padding-bottom: 4px;
+        border-image: url(../img/v.jpg) 20 stretch;
+    }
+    .header
+    {
+        min-height: 600px;
+    }
+    .gradient_bg 
+    {
+        margin-left: 220px;
+        min-height: 619px;
+    }
+    .brew 
+    {
+        font-size: 48px;
+        padding-left: 52px;
+        padding-top: 31px;
+    }
+    .tea 
+    {
+        font-size: 60px;
+        line-height: 0px;
+        width: max-content;
+        padding-left: 34px;
+    }
+    
+    .gradient_bg > nav 
+    {
+        min-height: 200px;
+    }
+    .head_content 
+    {
+        margin-top: 5px;
+    }
+    .head_menu li a
+    {
+        margin-left: 20px;
+    }
+    .head_menu li:first-child
+    {
+        margin-left: 0px;
+    }
+    .head_menu li:nth-last-child(2)
+    {
+        margin-left: 0px;
+    }
+
+    .head_menu li:nth-last-of-type(-n+1)
+    {
+        margin-left: 0px;
+    }
+    .head_content h2 
+    {
+        font-size: 27px;
+    }
+    .our_recipes
+    {
+        width: 400px;
+        margin-left: 8%;
+        margin-top: -4%;
+    }
+    .our_recipes_text 
+    {
+        padding-left: 25px;
+    }
+    .smallOring
+    {
+        width: 10%;
+    }
+    .orgBg 
+    {
+        position: absolute;
+        left: -18%;
+        top: 7%;
+        width: 33%;
+    }
+    .best_tea_bg 
+    {
+        width: 180px;
+        margin-left: 30px;
+    }
+    .forng 
+    {
+        position: relative;
+        left: 85%;
+        width: 20%;
+    }
+    .section1
+    {
+        min-height: 583px;
+    }
+    .title_or 
+    {
+        font-size: 28px;
+    }
+    .section4 
+    {
+        min-height: 364px;
+    }
+    .section4_list 
+    {
+        background-size: cover;
+        height: 300px;
+        width: 437px;
+    }
+    .help_list_grid > li > a > img
+    {
+        width: 62px;
+        height: 58px;
+    }
+    .section5 
+    {
+        min-height: 488px;
+    }
+    .footer 
+    {
+        min-height: 600px;
+    }
+    .footer_img 
+    {
+        display: none;
+    }
+    .content_img_reg
+    {
+        height: 485px;
+    }
+    .blok_reg 
+    {
+        width: 300px;
+        height: 360px;
+        margin-top: -25px;
+        margin-left: 0px;
+    }
+    .blok_reg > form 
+    {
+        padding-top: 30px;
+    }
+    input
+    {
+        width: auto;
+        height: 40px;
+        border: 1px solid #e1e1e1;
+    }
+    .content_social 
+    {
+        width: 170px;
+        margin-top: -20px;
+    }
+    .fa-instagram 
+    {
+        padding: 12px 14px;
+    }
+    .fa-facebook-f
+    {
+        padding: 12px 17px;
+    }
+    .title_or 
+    {
+        font-size: 30px;
+    }
+    .border_title1 
+    {
+        margin-top: 50px;
+        height: 46px;
+        background-size: contain;
+        width: 395px;
+    }
+    .loose_teas_container 
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .loose_teas_container > div 
+    {
+        margin-top: 43px;
+    }
+    .loose_teas_img 
+    {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .title_num 
+    {
+        font-size: 30px;
+    }
+    .loose_teas_text 
+    {
+        font-size: 13px;
+    }
+    .border_title2 
+    {
+        margin-top: 50px;
+        height: 46px;
+        background-size: cover;
+        width: 395px;
+    }
+    .btn_more 
+    {
+        width: 123px;
+        height: 53px;
+    }
+    .bg_perfect_tea 
+    {
+        height: 300px;
+    }
+    .perfect_tea_tit 
+    {
+        font-size: 50px;
+        width: 370px;
+    }
+    .section3 
+    {
+        min-height: 317px;
+    }
+    .ay 
+    {
+        font-size: 11px;
+        padding-left: 7px;
+    }
+}
